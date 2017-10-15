@@ -11,7 +11,7 @@
 
 @font-face {
     font-family: MyFontTow;
-    src: url(../font/roboto/roboto-light.ttf) format("truetype");
+    src: url(../roboto-light.ttf) format("truetype");
 }
 @font-face {
     font-family: Mybrand;
