@@ -1,0 +1,249 @@
+/*	Start	Global	*/
+
+*{
+	box-sizing: border-box;
+}
+
+@font-face {
+    font-family: MyFont;
+    src: url(../font/Cairo/Cairo-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: MyFontTow;
+    src: url(../font/roboto/roboto-light.ttf) format("truetype");
+}
+@font-face {
+    font-family: Mybrand;
+    src: url(../font/KaushanScript-Regular.ttf) format("truetype");
+}
+body{
+
+}
+
+.container{
+	width: 90%;
+	margin: auto;
+}
+
+
+/*	Start 	Navbar	*/
+.head-image{
+	background:orangered url(../images/header.jpg) no-repeat fixed center;
+	background-size: cover;
+}
+
+nav *{
+    font-family: MyFontTow;
+    color: #f6e9d4;
+    text-transform: capitalize;
+}
+nav{
+	overflow: hidden;
+	background: orangered;
+    position: fixed;
+  	width: 100%;
+  	z-index: 1;
+
+}
+nav h1{
+	margin: 17px 0 14px;
+    font-family: Mybrand;
+}
+nav ul{
+	float: right;
+	margin: 0;
+	padding: 0;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 2px 0 0;
+	padding: 17px;
+	font-weight: bold;
+}
+
+nav .links li.active,
+nav .links li:hover{
+	border-bottom: 3px solid rgb(131, 255, 0);
+	background-color: rgba(0, 0, 0, 0.2);
+}
+nav ul a{
+	text-decoration: none;
+	font-size: 22px;
+}
+/* 	End 	Navbar 	*/
+
+/*	Start 	Main 	*/
+
+/*	Start 	How To Use 	*/
+.main{
+	position: relative;
+}
+.main .to-use{
+	position: absolute;
+	margin: 150px 0px 0px 70px;
+}
+
+.main .to-use h2{
+	font-family: myFontTow;
+	color: rgb(131, 255, 0);;
+	border-left: 16px solid green;
+	background: rgba(0, 0, 0, 0.6);
+	font-size: 3.5em;
+	text-indent: 10px;
+	text-transform: capitalize;
+}
+
+iframe{
+	border-top:  16px solid orangered;
+}
+/*	End 	How To Use 	*/
+
+/* 	Start 	About Us 	*/
+.main .container .to-use{
+	position: absolute;
+	top: 57em;
+	margin:0 0 0 10px;
+	width: 70%;
+
+}
+
+.main .container .to-use p{
+	font-family: myFontTow;
+	color: #FFF;
+	border-top: 16px solid orangered;
+	background: rgba(0, 0, 0, 0.6);
+	font-size: 1.5em;
+	text-transform: capitalize
+}
+
+/* 	End 	About Us 	*/
+
+/* 	Start 	Shopping 	*/
+
+.shopping .container .to-use{
+	position: absolute;
+	top: 80em;
+}
+.shopping .container .products ul{
+	font-family: myFontTow;
+	color: #f3db04;
+	border-top: 16px solid orangered;
+	font-size: 1.333em;
+	background: rgba(0, 0, 0, 0.6);
+	text-transform: capitalize;
+	list-style-type: none;
+	overflow: hidden;
+	margin: 0;
+    padding: 5px 5px;
+}
+.shopping .container .products ul li{
+	width: 24.4%;
+	height: 8em;
+	display: inline-block;
+
+	margin: 15px 0;
+	text-align: center;
+	line-height: 18em;
+	border-bottom: 6px solid rgb(216, 22, 41);
+}
+.shopping .container .products ul li:first-child{
+	background: url(../images/Foodstuffs.png) no-repeat center;
+	background-size: cover;
+}
+.shopping .container .products ul li:nth-child(3){
+	background: url(../images/Medicines.jpg) no-repeat center;
+	background-size: cover;
+}
+.shopping .container .products ul li:nth-child(4){
+	background: url(../images/Detergents.jpg) no-repeat center;
+	background-size: cover;
+}
+.shopping .container .products ul li:nth-child(5){
+	background: url(../images/Electronics.jpg) no-repeat center;
+	background-size: cover;
+}
+.shopping .container .products ul li:nth-child(6){
+	background: url(../images/BuildingMaterials.jpg) no-repeat center;
+	background-size: cover;
+}
+.shopping .container .products ul li:nth-child(2){
+	background: url(../images/Spices.jpg) no-repeat center;
+	background-size: cover;
+}
+.shopping .container .products ul li:nth-child(7){
+	background: url(../images/ToolsEquipments.jpg) no-repeat center;
+	background-size: cover;
+}
+.shopping .container .products ul li:last-child{
+	background: url(../images/header.jpg) no-repeat center;
+	background-size: cover;
+}
+/* 	End 	Shopping	*/
+
+/* 	End 	Main 	*/
+
+
+/* 	Start 	Footer 	*/
+
+.contact{
+	position: absolute;
+	top: 125em;
+	overflow: hidden;
+	width: 100%
+}
+.contact .brand{
+	width: 78%;
+    margin: 0 13px;
+}
+.contact .brand h2{
+	font-family: myFontTow;
+	color: rgb(131, 255, 0);;
+	border-left: 16px solid green;
+	background: rgba(0, 0, 0, 0.6);
+	font-size: 3.5em;
+	text-indent: 10px;
+	text-transform: capitalize;
+}
+.map{
+	height: 399px;
+	background:  rgba(0, 0, 0, 0.6);
+}
+#map{
+    height: 400px;
+    width: 100%;
+}
+/* 	End 	Footer 	*/
+
+
+/* 	Start 	MyFrame Work 	*/
+
+
+
+.left-side{
+	float: left;
+	width: 50%;
+
+}
+
+.center-part{
+	margin: auto;
+	width: 33.33333%;
+
+}
+
+.right-side{
+	float: right;
+	width: 50%;
+}
+
+.clearfix{
+	clear: both;
+}
+
+
+
+/* 	End 	MyFrame Work 	*/
+
+
